@@ -1,6 +1,6 @@
 package jun11.GenericNumber;
 
-public class NumberHolder <T extends Number>{
+public class NumberHolder <T extends Number> extends AbstractGeneric<T>{
     private T number1;
     private T number2;
 
